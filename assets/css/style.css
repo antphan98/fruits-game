@@ -1,7 +1,8 @@
+
 .title {
 
     font-family: 'Fascinate Inline', cursive;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 
 }
@@ -10,4 +11,40 @@ body {
 
     background-color: mintcream;
 
+}
+
+.instructions {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    border-style: dotted;
+    margin-bottom: 30px;
+    
+}
+
+/* fruit images */
+
+#apple {
+
+    width: 170px;
+    padding: 20px 10px;
+
+}
+
+#orange {
+    
+    width: 170px;
+    padding: 20px;
+}
+
+#grape {
+
+    width: 170px;
+    padding: 20px;
+}
+
+#pear {
+
+    width: 170px;
+    padding: 20px;
 }
