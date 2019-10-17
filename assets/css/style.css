@@ -2,49 +2,79 @@
 .title {
 
     font-family: 'Fascinate Inline', cursive;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
 
 }
 
-body {
 
-    background-color: mintcream;
 
-}
 
 .instructions {
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Muli', sans-serif;
     text-align: center;
-    border-style: dotted;
-    margin-bottom: 30px;
-    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.num {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 /* fruit images */
 
 #apple {
 
+    
+    text-align: center;
+    font-family: 'Muli', sans-serif;
     width: 170px;
-    padding: 20px 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
 
 }
 
 #orange {
+
     
+    text-align: center;
+    font-family: 'Muli', sans-serif;
     width: 170px;
-    padding: 20px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
 #grape {
 
+    
+    text-align: center;
+    font-family: 'Muli', sans-serif;
     width: 170px;
-    padding: 20px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
 #pear {
 
+    
+    text-align: center;
+    font-family: 'Muli', sans-serif;
     width: 170px;
-    padding: 20px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+
 }
