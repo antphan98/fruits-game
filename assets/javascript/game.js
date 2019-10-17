@@ -15,6 +15,7 @@ let counter = 0;
 
 // }
 
+    $("#targetNum").text(targetNumber);
 
     $("#apple").on("click", function() {
 
@@ -23,25 +24,36 @@ let counter = 0;
     counter += 12;
     alert("You clicked this crystal " + counter + " times!");
 
-// })
+    })
 
-// $("#orange").on("click", function() {
+$("#orange").on("click", function() {
 
-//     alert("ahh");
-
-
-// })
-
-// $("#grape").on("click", function() {
-
-//     alert("ahh");
+    counter += 9;
+    alert("You clicked this crystal " + counter + " times!");
 
 
-// })
+})
 
-// $("#pear").on("click", function() {
+$("#grape").on("click", function() {
 
-//     alert("ahh");
+    counter += 4;
+    alert("You clicked this crystal " + counter + " times!");
 
+})
 
- });
+$("#pear").on("click", function() {
+
+    counter += 18;
+
+    alert("You clicked this crystal " + counter + " times!");
+ })
+
+if (counter === targetNumber) {
+    alert("you win!");
+
+}
+
+else if (counter >= targetNumber) {
+    alert("you lose!");
+
+}
