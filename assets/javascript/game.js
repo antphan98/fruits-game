@@ -1,7 +1,11 @@
 
 const targetNumber = 48;
 const fruitNum = [12, 9, 4, 18];
-let counter = 0;
+// pseudocode ~~ 
+// was supposed to make user score change as each image was clicked
+// was supposed to fix if you win or lose when hitting target score
+// was supposed to reset score once the user was finished
+
 
 
 // for (let i = 0; i > fruitNum.length; i++) {
@@ -15,21 +19,34 @@ let counter = 0;
 
 // }
 
-    $("#targetNum").text(targetNumber);
+const userScore = 0;
 
+
+    $("#targetNum").text(targetNumber);
+    let counter = 0;
+    const count = 0;
+    $(document).ready(function() {
+        
     $("#apple").on("click", function() {
 
     // const appleValue = ($(this).attr("numAppleValue"));
     // appleValue = parseInt(appleValue);
-    counter += 12;
-    alert("You clicked this crystal " + counter + " times!");
+        // count += this.value;
+        // $("#userNum").html(count);
+
+        counter += 12;
+    alert("Your score is " + counter);
+      })
+      
 
     })
+
+
 
 $("#orange").on("click", function() {
 
     counter += 9;
-    alert("You clicked this crystal " + counter + " times!");
+    alert("Your score is " + counter);
 
 
 })
@@ -37,7 +54,7 @@ $("#orange").on("click", function() {
 $("#grape").on("click", function() {
 
     counter += 4;
-    alert("You clicked this crystal " + counter + " times!");
+    alert("Your score is " + counter);
 
 })
 
@@ -45,7 +62,7 @@ $("#pear").on("click", function() {
 
     counter += 18;
 
-    alert("You clicked this crystal " + counter + " times!");
+    alert("Your score is " + counter);
  })
 
 if (counter === targetNumber) {
